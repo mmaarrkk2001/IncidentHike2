@@ -1,0 +1,34 @@
+
+CREATE TABLE Routes (
+hike_id INTEGER NOT NULL,
+Route_ID CHAR(10) NOT NULL,
+complete_route CHAR(12),
+base_1 CHAR(1),
+base_2 CHAR(1),
+base_3 CHAR(1),
+base_4 CHAR(1),
+base_5 CHAR(1),
+base_6 CHAR(1),
+base_7 CHAR(1),
+base_8 CHAR(1),
+base_9 CHAR(1),
+base_10 CHAR(1),
+total_distance FLOAT
+);
+
+DROP TABLE Routes;
+
+CREATE TABLE Bases (
+hike_id INTEGER NOT NULL,
+base_no INTEGER,
+time_at_base INTEGER,
+base_1 FLOAT,
+base_2 FLOAT,
+base_3 FLOAT,
+base_4 FLOAT,
+base_5 FLOAT,
+base_6 FLOAT,
+base_7 FLOAT,
+base_8 FLOAT,
+base_9 FLOAT
+)
